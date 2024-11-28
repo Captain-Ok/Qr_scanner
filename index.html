@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive QR Code Scanner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="theme-toggle">
+        <label for="theme-switch">🌞/🌙</label>
+        <input type="checkbox" id="theme-switch">
+    </div>
+
+    <div class="scanner-container">
+        <h1>QR Code Scanner</h1>
+        <video id="preview"></video>
+        <p id="result">Point your camera at a QR Code.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
